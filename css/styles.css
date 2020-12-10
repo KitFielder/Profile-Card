@@ -4,6 +4,8 @@ body {
   background-color: #00B6C7;
   margin: 0;
   text-align: center;
+  height:1440px;
+  overflow: hidden;
 }
 
 table {
