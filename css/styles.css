@@ -1,0 +1,99 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-color: #00B6C7;
+  margin: 0;
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+}
+
+th {
+  padding: 30px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  padding-top: 18px;
+}
+
+td {
+  font-size: 11px;
+  color: lightgrey;
+}
+
+hr {
+  padding: 0;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: lightgrey;
+  opacity: 0.5;
+}
+
+.bg-pattern-top {
+  position: absolute;
+  right: 50%;
+  top: -50%;
+  z-index: -1;
+}
+
+.bg-pattern-bottom {
+  position: absolute;
+  left: 50%;
+  bottom: -50%;
+  z-index: -1;
+}
+
+.card {
+  background-color: white;
+  border-radius: 25px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -175px;
+  margin-left: -175px;
+  box-shadow: 10px 10px 80px 20px #00A6B5;
+}
+
+.bg-pattern-card {
+  border-radius: 25px 25px 0 0;
+  padding-bottom: 55px;
+  width: 100%;
+  height: 35%;
+}
+
+.image-victor {
+  border-radius: 50px;
+  border: solid 3px white;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+}
+
+.name {
+  margin-top: 5px;
+}
+
+.age {
+  font-weight: normal;
+  color: grey;
+  opacity: 0.5;
+}
+
+.location {
+  margin: 15px auto 30px auto;
+  color: grey;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.attribution a {
+  color: white;
+}
